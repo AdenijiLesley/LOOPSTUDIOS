@@ -1,0 +1,358 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.row{
+    /* border: 1px solid green; */
+    height: 1000px;
+}
+.header{
+    /* border: 1px solid blue; */
+    height: 50%;
+    background-image: url(images/desktop/image-hero.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.logo-nav{
+    /* border: 1px solid gold; */
+    height: 50px;
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.logo{
+    /* border: 1px solid violet; */
+    width: 15%;
+    height: 100%;
+    background-image: url(images/logo.svg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.navigation{
+    /* border: 1px solid brown; */
+    height: 100%;
+    width: 40%;
+}
+.navigation ul{
+    align-items: center;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    text-align: center;
+
+}
+.navigation li{
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+    
+}
+.navigation ul a {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+.immerse{
+    border: 1px solid white;
+    height: 200px;
+    width: 35%;
+    margin: 75px;
+
+}
+h1{
+    color: white;
+    font-size: 55px;
+    font-style: normal;
+
+}
+.middle{
+    /* border: 1px solid pink; */
+    height: 50%;
+    padding: 60px;
+    display: flex;
+    flex-direction: row;
+    
+}
+.pink-vs{
+    /* border: 1px solid blueviolet; */
+    height: 100%;
+    width: 50%;
+    background-image: url(images/desktop/image-interactive.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+.text-1{
+    /* border: 1px solid purple; */
+    height: 100%;
+    width: 50%;
+    background-color:white;
+    display: flex;
+    position: relative;
+    left: 35rem;
+    top: 7rem;
+
+}
+    
+.front{
+    /* border: 1px solid goldenrod; */
+    height:250px;
+    width: 60%;
+    margin: 100px;
+    text-align: center;
+    justify-content: space-around;
+   
+}
+
+
+.front h1{
+    color: black;
+    font-size: 40px;   
+}
+.p{
+    color: black;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.creations-all{
+    /* border: 1px solid red; */
+    height: 200px;
+    padding: 60px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.our{
+    /* border: 1px solid blue; */
+    height: 50px;
+    width: 40%;
+    font-size: 40px;
+    font-style: normal;
+    color: black;
+    margin-left: 15px;
+}
+
+.see{
+    border: 1px solid black;
+    width: 7%;
+    margin-right: 15px;
+    justify-content: center;
+    display: flex;
+}
+.gallery{
+    margin: 5rem;
+    /* border: 1px solid red; */
+    color: rgba(231, 225, 225, 0.91);
+}
+
+.gallery h2{
+    margin: 18em 0em 0em 1em;
+}
+
+.Gerllery_row_1{
+    display: flex;
+    gap: 30px;
+    width: 100%;
+}
+
+.item-1{
+    /* border: 1px solid blue; */
+    height: 80vh;
+    width: 25%;
+    background-image: url(images/desktop/image-deep-earth.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    }
+.item-2{
+    /* border: 1px solid blue; */
+    height: 80vh;
+    width: 25%;
+    background-image: url(images/desktop/image-night-arcade.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.item-3{
+    /* border: 1px solid blue; */
+    height: 80vh;
+    width: 25%;
+    background-image: url(images/desktop/image-soccer-team.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.item-4{
+    /* border: 1px solid blue; */
+    height: 80vh;
+    width: 25%;
+    background-image: url(images/desktop/image-grid.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.Gerllery_row_2{
+    display: flex;
+    gap: 30px;
+    width: 100%;
+    margin-top: 3em;
+}
+.item5{
+       /* border: 1px solid blue; */
+       height: 80vh;
+       width: 25%;
+       background-image: url(images/desktop/image-from-above.jpg);
+       background-size: cover;
+       background-position: center;
+       background-repeat: no-repeat;
+}
+.item6{
+       /* border: 1px solid blue; */
+       height: 80vh;
+       width: 25%;
+       background-image: url(images/desktop/image-pocket-borealis.jpg);
+       background-size: cover;
+       background-position: center;
+       background-repeat: no-repeat;
+}
+.item7{
+       /* border: 1px solid blue; */
+       height: 80vh;
+       width: 25%;
+       background-image: url(images/desktop/image-curiosity.jpg);
+       background-size: cover;
+       background-position: center;
+       background-repeat: no-repeat;
+}
+.item8{
+       /* border: 1px solid blue; */
+       height: 80vh;
+       width: 25%;
+       background-image: url(images/desktop/image-fisheye.jpg);
+       background-size: cover;
+       background-position: center;
+       background-repeat: no-repeat;
+}
+.bottom{
+    /* border: 1px solid green; */
+    height: 200px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+}
+.dio-nav{
+    /* border: 1px solid blue; */
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.loopst{
+    /* border: 1px solid pink; */
+    height: 30%;
+    width: 30%;
+    background-image: url(images/logo.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.socialss{
+    /* border: solid 1px green; */
+    height: 30%;
+    width: 30%;
+    gap: 2px;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+.icon1{
+    /* border: 1px solid blue; */
+    height: 100%;
+    width: 25%;
+    background-image: url(images/icon-facebook.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.icon2{
+    /* border: 1px solid blue; */
+    height: 100%;
+    width: 25%;
+    background-image: url(images/icon-twitter.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.icon3{
+    /* border: 1px solid blue; */
+    height: 100%;
+    width: 25%;
+    background-image: url(images/icon-pinterest.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.icon4{
+    /* border: 1px solid blue; */
+    height: 100%;
+    width: 25%;
+    background-image: url(images/icon-instagram.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.las{
+    /* border: 1px soild pink; */
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.nav-2{
+    /* border: 1px solid gold; */
+    height: 50%;
+    width: 40%;
+}
+.nav-2 ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+}
+.nav-2 ul a{
+    list-style-type: none;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    align-items: center;
+}
+.nav-2 li{
+    align-items: center;
+}
+.copyw{
+    /* border: 1px solid grey;git add .
+    */
+    height: 50%;
+    width: 40%;
+    color: white;
+    justify-content: end
+}
+.copyw h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
